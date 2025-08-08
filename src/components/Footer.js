@@ -1,7 +1,11 @@
-export default function Footer() {
+import React from 'react';
+
+const Footer = () => {
   return (
-    <footer style={{ background: '#333', color: '#fff', padding: '10px', marginTop: '20px' }}>
-      <p>版权所有 © Temu Mall 2025</p>
+    <footer style={{ textAlign: 'center', padding: '1rem', background: '#f0f0f0', marginTop: '2rem' }}>
+      <p>© 2025 Cow Mall 版权所有</p>
     </footer>
   );
-}
+};
+
+export default Footer;

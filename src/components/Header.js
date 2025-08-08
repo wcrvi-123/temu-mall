@@ -1,7 +1,11 @@
-export default function Header() {
+import React from 'react';
+
+const Header = () => {
   return (
-    <header style={{ background: '#333', color: '#fff', padding: '10px' }}>
-      <h2>Temu 商城导航栏</h2>
+    <header style={{ padding: '1rem', background: '#fff', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
+      <h1 style={{ margin: 0 }}>Cow 商城</h1>
     </header>
   );
-}
+};
+
+export default Header;
